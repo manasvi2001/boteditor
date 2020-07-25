@@ -1,0 +1,47 @@
+.chat {
+  &__header {
+    margin-top: 3rem;
+    padding: 1rem;
+    background-color: $color-primary;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  &__window {
+    padding: 1rem;
+    background-color: $color-white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+}
+
+.message {
+  &__right {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: right;
+    background-color: lighten($color-primary, 30%);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  &__left {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: left;
+    background-color: lighten($color-black-1, 80%);
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  &__input {
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: lighten($color-primary, 56%);
+    padding: 1rem;
+    border-radius: 5px;
+  }
+}

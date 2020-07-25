@@ -1,0 +1,20 @@
+.button {
+  border: 1px solid $color-primary;
+  margin: 0 .5rem;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 7rem;
+  text-align: center;
+  font-weight: bold;
+  color: $color-primary;
+  cursor: pointer;
+
+  &__container {
+    display: flex;
+  }
+
+  &--primary {
+    background-color: $color-primary;
+    color: white;
+  }
+}

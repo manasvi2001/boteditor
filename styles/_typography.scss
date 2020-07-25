@@ -1,0 +1,30 @@
+.heading {
+  &__primary {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: lighten($color-black-1, 10%);
+    line-height: 1.6;
+
+    &--white {
+      color: $color-white;
+    }
+  }
+
+  &__secondary {
+    font-size: 1rem;
+    font-weight: bold;
+    color: lighten($color-black-1, 45%);
+
+    &--primary {
+      color: lighten($color-primary, 5%);
+    }
+
+    &--white {
+      color: $color-white;
+    }
+
+    &--black {
+      color: lighten($color-black-1, 10%);
+    }
+  }
+}

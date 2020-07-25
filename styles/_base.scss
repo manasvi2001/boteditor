@@ -1,0 +1,35 @@
+// COLOR VARIABLES
+$color-primary: #3223ab;
+
+$color-white: #ffffff;
+
+$color-black-1: #1A1A1A;
+
+// FONT VARIABLES
+$font-primary: sans-serif;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; // 1rem = 10px
+}
+
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  font-weight: 300;
+}
+
+.container {
+  padding: 2rem;
+  display: grid;
+  grid-template-rows: min-content;
+  grid-template-columns: 3fr 2fr;
+  grid-gap: 2rem;
+}

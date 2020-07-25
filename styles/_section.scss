@@ -1,0 +1,28 @@
+.section {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+
+  &__config {
+    padding: 2rem;
+    margin-bottom: 1rem;
+    box-shadow: .3rem .3rem 1rem #eee;
+    border-radius: 15px;
+  }
+
+  &__widget {
+    background-color: lighten($color-primary, 57%);
+    width: 100%;
+    border-radius: 15px;
+    padding: 1rem;
+  }
+
+  &__chat {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
